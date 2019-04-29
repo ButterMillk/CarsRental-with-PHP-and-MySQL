@@ -1,0 +1,148 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.wrapperrIndex{
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	background-image: url("./img/image1.jpg");
+	background-size: 1000px 1600px;
+	background-repeat: no-repeat;
+	opacity: 0.7;
+	padding: 0;
+	margin: 0;
+
+}
+.login{
+
+	box-sizing: border-box;
+	width: 40vw;
+	margin: 5% 20%;
+	padding: 20% 20%;
+	display: block;
+
+}
+.login__form{
+	margin-left: auto;
+	margin-right: auto;
+}
+.login__form > label{
+	font-size: 5.0em;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	margin-left: auto;
+	color: white;	
+}
+.login__form--text{
+
+	width: 30vw;
+	height: 6vh;
+	text-align: center;
+	margin-left: auto;
+	padding: 1% 0;
+	border: none;
+	border-bottom: 1px solid white;
+	background: none;
+	padding-bottom: 10px;
+	color: white;
+
+}
+
+.login__form--text:hover{
+	text-align: center;
+	margin-left: auto;
+	padding: 1% 0;
+	border: none;
+	border-bottom: 1px solid white;
+	background: none;
+	box-shadow: 0px 2px white;
+	transition: 0.5s;
+
+}
+
+.login__form--submit{
+	
+	padding: 3% 0;
+	background-color: white;
+	border: none;
+	opacity: 0.9;
+	width: 30vw;
+	height: 5vh;
+}
+.login__form--submit:hover{
+	background-color: #3fc703;
+	transition: 0.5s;
+}
+.button-index{
+	width: 100%;
+	padding: 3% 3%;
+	background-color: #0365c7;
+	text-decoration: none;
+	color: white;
+}
+.page{
+	box-sizing: border-box;
+	position: relative;
+}
+.header{
+	box-sizing: border-box;
+	padding: 2% 2%;
+	background-color: #c77203;
+}
+.naviagation{
+
+	box-sizing: border-box;
+	float: left;
+	background-color: green;
+	height: 45vw;
+}
+.naviagation > ul{
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.naviagation > ul > li{
+	
+	padding: 2% 0;
+
+}
+.naviagation > ul > li > a {
+	
+	text-decoration: none;
+
+}
+.button-navigation{
+	font-size: 1.5vw;
+	width: 20vw;
+}
+@media only screen and (max-width: 767px){
+	.naviagation > ul > li{
+		display: inline-block;
+		font-size: 2vw;
+		width: 22vw;
+		padding: 1% 0;
+
+	}
+	.naviagation{
+		height: auto;
+	}
+}
+
+.container{
+	padding: 2% 2%;
+	box-sizing: border-box;
+	float: left;
+	background-color: #dac703;
+	height: 45vw;
+	
+}
+
+a.table{
+	text-decoration: none;
+	color: brown;
+	background-color: white;
+}
